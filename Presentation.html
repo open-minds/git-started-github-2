@@ -442,12 +442,6 @@
                     </div>
                 </section>
 
-                <section class="bg-white">
-                    <div class="wrap content-center">
-                        <img src="illus/git-logo%20copy.png" style="width:70%; height:auto;">
-                    </div>
-                </section>
-
                 <section class="bg-black aligncenter">
                     <span class="background light" style="background-image:url(illus/wallhaven-407968.jpg)"></span>
                     <div class="wrap">
@@ -470,11 +464,11 @@
                         <pre>$ sudo apt-get install git</pre>
                         <br><br>
                         <p class="content-center" style="font-size: 22px;"><code>Windows :<br>
-Download & install git at http://git-scm.com/</code></p>
+                            Download & install git at http://git-scm.com/</code></p>
                     </div>
                     <!-- .end .wrap -->
                 </section>
-                
+
                 <section>
                     <div class="wrap size-60">
                         <code style="font-size: 22px;">Define a user name</code><br><br>
@@ -489,6 +483,158 @@ Download & install git at http://git-scm.com/</code></p>
                     <!-- .end .wrap -->
                 </section>
 
+                <section class="bg-white">
+                    <div class="wrap">
+                        <h2 class="content-center">Git WorkFlow</h2>
+                    </div>
+                    <img  class="content-center" src="illus/expl-1.png" style="width: 50%; height:auto;">
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <div class="wrap">
+                        <h2 class="content-center">Git WorkFlow</h2>
+                    </div>
+                    <img  class="content-center" src="illus/expl-2.png" style="width: 50%; height:auto;">
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <div class="wrap">
+                        <h2 class="content-center">Git WorkFlow</h2>
+                    </div>
+                    <img  class="content-center" src="illus/expl-3.png" style="width: 50%; height:auto;">
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <div class="wrap size-60">
+                        <code style="font-size: 22px;">Create a folder</code><br><br>
+                        <pre>$ mkdir myapp </pre>
+                        <br><br>
+                        <code style="font-size: 22px;">Move to that Folder</code><br><br>
+                        <pre>$ cd myapp</pre>
+                        <br><br>
+                        <code style="font-size: 22px;">Initialize git on that Folder</code><br><br>
+                        <pre>$ git init</pre>
+                        <br><br>
+                        <code style="font-size: 22px;">Create a file</code><br><br>
+                        <pre>$ touch index.html</pre>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <div class="wrap size-60">
+                        <h1 class="content-center">STATUS</h1>
+                        <br><br><br>
+                        <code style="font-size: 18px;">git can tell you if your folder has some modified files (dirty)</code><br><br>
+                        <pre>$ git status</pre>
+
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <div class="wrap">
+                        <h1 class="content-center">COMMIT</h1><br>
+                        <h3 class="content-center">Snapshot of your work</h3>
+
+                    </div>
+                    <br>
+                    <img  class="content-center" src="illus/cam.png" style="width: 30%; height:auto;">
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <h1 class="content-center">HOW TO COMMIT ?</h1>
+                    <div class="wrap size-60">
+                        <code style="font-size: 22px;">Add signle file in <strong>Staging area</strong></code><br><br>
+                        <pre>$ mkdir myapp </pre>
+                        <br><br>
+                        <code style="font-size: 22px;">Add all the files in <strong>Staging area</strong></code><br><br>
+                        <pre>$ git add --all</pre>
+                        <br><br>
+                        <code style="font-size: 22px;">Take a snapshot <strong>(commit)</strong></code><br><br>
+                        <pre>$ git commit -m "a message about this change"</pre>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+
+
+                <section class="bg-white">
+                    <h1 class="content-center">DIFF</h1>
+                    <div class="wrap size-60">
+                        <h4 class="aligncenter">if git status tells you something changed, you can inspect exactly what changed :</h4>
+                        <pre>$ git diff</pre>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+
+
+                <section class="bg-white">
+                    <h1 class="content-center">LOG</h1>
+                    <div class="wrap size-60">
+                        <h4 class="aligncenter">Show <strong>commit history</strong> with</h4>
+                        <pre>$ git log</pre>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-black">
+                    <span class="background dark" style="background-image:url('illus/wallhaven-102387.jpg')"></span>
+                    <div class="wrap">
+                        <h1>LET'S SHARE OUR PROJECT WITH THE WORLD</h1>
+                    </div>
+                </section>
+
+                <section class="bg-white">
+                    <div class="wrap content-center">
+                        <img src="illus/GitHub_Logo.png" style="width:70%; height:auto;">
+                    </div>
+                </section>
+
+                <section class="bg-white">
+                    <div class="wrap">
+                        <h2 class="content-center">Git + GitHub WorkFlow</h2>
+                    </div>
+                    <img  class="content-center" src="illus/expl-4.png" style="width: 50%; height:auto;">
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <h1 class="content-center">WE NEED A REMOTE !</h1>
+                    <div class="wrap size-60">
+                        <h4 class="aligncenter">Go to GitHub, create a repo: <span style="color: #1565c0">https://github.com/new</span></h4>
+                        <pre>$ git remote add origin git@github.com:[username]/[project].git</pre>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <h1 class="content-center">PUSH</h1>
+                    <div class="wrap size-60">
+                        <h4 class="aligncenter">Share the code with your team, and the world</h4>
+                        <pre>$ git push origin master</pre>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+
+                <section class="bg-white">
+                    <h1 class="content-center">PULL</h1>
+                    <div class="wrap size-60">
+
+                        <pre>$ git pull origin master</pre>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+                
+                <section class="bg-blue">
+                    <img src="illus/white.png" class="slide-top content-center" style="width: 20%; height=auto;">
+                  <br><br><br>
+                    <h1 class="content-center text-landing">THANK YOU</h1>
+
+                </section>
 
             </article>
         </main>
