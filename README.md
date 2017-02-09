@@ -1,4 +1,4 @@
-# WebSlides = Good Karma
+# Git Started with Github 2
 Git Started with Github2 by Team Open Minds on February 9th, 2017 .
 
 ## Learn Git & Github:
